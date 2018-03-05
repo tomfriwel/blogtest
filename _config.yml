@@ -42,6 +42,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-port: 8080
+# port: 8080
 
 # baseurl: /404.html
