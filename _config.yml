@@ -27,6 +27,6 @@ github_username:  tomfriwel
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-minimal
 
 baseurl: /blogtest
