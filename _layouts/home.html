@@ -3,9 +3,11 @@ layout: archive
 ---
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-123
+1
 {% for post in paginator.posts %}
+  2
   {% include single.html %}
 {% endfor %}
+3
 
 {% include paginator.html %}
