@@ -44,4 +44,4 @@ theme: minima
 
 # port: 8080
 
-# baseurl: /404.html
+baseurl: /blogtest
