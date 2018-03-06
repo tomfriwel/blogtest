@@ -46,3 +46,16 @@ remote_theme: "mmistakes/minimal-mistakes"
 # port: 8080
 
 baseurl: /blogtest
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
