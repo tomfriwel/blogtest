@@ -26,7 +26,8 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: minima
+remote_theme: "mmistakes/minimal-mistakes"
 # plugins:
 #   - jekyll-feed
 
@@ -45,3 +46,16 @@ theme: minima
 # port: 8080
 
 baseurl: /blogtest
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
