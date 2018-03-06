@@ -25,6 +25,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: tomfriwel
 github_username:  tomfriwel
 
+show_excerpts: true
+
 # Build settings
 markdown: kramdown
 theme: minima
