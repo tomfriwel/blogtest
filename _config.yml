@@ -26,7 +26,7 @@ github_username:  tomfriwel
 show_excerpts: true
 
 # Build settings
-markdown: kramdown
+markdown: markdown
 # theme: minima
 
 baseurl: /blogtest
